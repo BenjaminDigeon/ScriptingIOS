@@ -1,0 +1,2 @@
+var loc = getLocation();
+loc;

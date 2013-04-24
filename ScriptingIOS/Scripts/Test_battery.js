@@ -1,0 +1,2 @@
+var batt = getBatteryInfo();
+batt;

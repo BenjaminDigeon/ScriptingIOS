@@ -1,0 +1,10 @@
+#Pods files
+Pods/*
+Podfile.lock
+
+#Mac osx files
+.DS_Store
+
+#Xcode files
+xcuserdata
+
