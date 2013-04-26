@@ -4,6 +4,8 @@ Scripting iOS
 Screenshots
 ---------
 
+![Screenshot1](https://raw.github.com/BenjaminDigeon/ScriptingIOS/master/screenshots/Capture1.png)
+![Screenshot2](https://raw.github.com/BenjaminDigeon/ScriptingIOS/master/screenshots/Capture2.png)
 
 Local Setup
 ---------
