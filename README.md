@@ -5,6 +5,7 @@ Screenshots
 ---------
 
 ![Screenshot1](https://raw.github.com/BenjaminDigeon/ScriptingIOS/master/screenshots/Capture1.png)
+
 ![Screenshot2](https://raw.github.com/BenjaminDigeon/ScriptingIOS/master/screenshots/Capture2.png)
 
 Local Setup
@@ -33,4 +34,4 @@ Clear Cocoapods cache
 License
 ---------
 
-See LICENSE.txt
+This project is licensed under the MIT license, a copy of which can be found in the LICENSE file.
