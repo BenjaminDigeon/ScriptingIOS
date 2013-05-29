@@ -55,9 +55,11 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
     ScriptViewController* newView = [[ScriptViewController alloc] initWithNibName:@"ScriptViewController" bundle:nil];
     newView.path = [NSString stringWithFormat:@"%@",[self.files objectAtIndex:indexPath.row]];
     [self.navigationController pushViewController:newView animated:YES];
+    
     
 }
 @end

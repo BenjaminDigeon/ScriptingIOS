@@ -16,8 +16,12 @@
 		B516D43816F30E2C00E0A7DA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B516D43716F30E2C00E0A7DA /* Default.png */; };
 		B516D43A16F30E2C00E0A7DA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B516D43916F30E2C00E0A7DA /* Default@2x.png */; };
 		B516D43C16F30E2C00E0A7DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B516D43B16F30E2C00E0A7DA /* Default-568h@2x.png */; };
+		B51E02BA175688C500333546 /* Engine+NetworkInformations.m in Sources */ = {isa = PBXBuildFile; fileRef = B51E02B9175688C500333546 /* Engine+NetworkInformations.m */; };
+		B51E02C017568D6C00333546 /* NICInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B51E02BD17568D6C00333546 /* NICInfo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B51E02C117568D6C00333546 /* NICInfoSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = B51E02BF17568D6C00333546 /* NICInfoSummary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B52DE34217284C5C0021B060 /* Scripts in Resources */ = {isa = PBXBuildFile; fileRef = B52DE34117284C5C0021B060 /* Scripts */; };
 		B58C8FB617051B9200A4D8FB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58C8FB517051B9200A4D8FB /* CoreLocation.framework */; };
+		B595C671175678E800BEDA9A /* Engine+AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B595C670175678E800BEDA9A /* Engine+AlertView.m */; };
 		B59E07E3172835CA00F0FA7E /* ScriptsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59E07E1172835CA00F0FA7E /* ScriptsListViewController.m */; };
 		B59E07E4172835CA00F0FA7E /* ScriptsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59E07E2172835CA00F0FA7E /* ScriptsListViewController.xib */; };
 		B59E07E91728362800F0FA7E /* ScriptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59E07E71728362800F0FA7E /* ScriptViewController.m */; };
@@ -44,8 +48,16 @@
 		B516D43716F30E2C00E0A7DA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B516D43916F30E2C00E0A7DA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B516D43B16F30E2C00E0A7DA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B51E02B8175688C500333546 /* Engine+NetworkInformations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Engine+NetworkInformations.h"; path = "Classes/Engine+NetworkInformations.h"; sourceTree = "<group>"; };
+		B51E02B9175688C500333546 /* Engine+NetworkInformations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Engine+NetworkInformations.m"; path = "Classes/Engine+NetworkInformations.m"; sourceTree = "<group>"; };
+		B51E02BC17568D6C00333546 /* NICInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NICInfo.h; path = lib/NICInfo.h; sourceTree = "<group>"; };
+		B51E02BD17568D6C00333546 /* NICInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NICInfo.m; path = lib/NICInfo.m; sourceTree = "<group>"; };
+		B51E02BE17568D6C00333546 /* NICInfoSummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NICInfoSummary.h; path = lib/NICInfoSummary.h; sourceTree = "<group>"; };
+		B51E02BF17568D6C00333546 /* NICInfoSummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NICInfoSummary.m; path = lib/NICInfoSummary.m; sourceTree = "<group>"; };
 		B52DE34117284C5C0021B060 /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Scripts; sourceTree = "<group>"; };
 		B58C8FB517051B9200A4D8FB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B595C66F175678E800BEDA9A /* Engine+AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Engine+AlertView.h"; path = "Classes/Engine+AlertView.h"; sourceTree = "<group>"; };
+		B595C670175678E800BEDA9A /* Engine+AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Engine+AlertView.m"; path = "Classes/Engine+AlertView.m"; sourceTree = "<group>"; };
 		B59E07E0172835CA00F0FA7E /* ScriptsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScriptsListViewController.h; path = Views/ScriptsListViewController.h; sourceTree = "<group>"; };
 		B59E07E1172835CA00F0FA7E /* ScriptsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScriptsListViewController.m; path = Views/ScriptsListViewController.m; sourceTree = "<group>"; };
 		B59E07E2172835CA00F0FA7E /* ScriptsListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ScriptsListViewController.xib; path = Views/ScriptsListViewController.xib; sourceTree = "<group>"; };
@@ -109,6 +121,7 @@
 		B516D42B16F30E2C00E0A7DA /* ScriptingIOS */ = {
 			isa = PBXGroup;
 			children = (
+				B51E02BB17568D6200333546 /* lib */,
 				B52DE34117284C5C0021B060 /* Scripts */,
 				B59E07EB172836DA00F0FA7E /* Engine */,
 				B59E07E51728361600F0FA7E /* Views */,
@@ -133,6 +146,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B51E02BB17568D6200333546 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B51E02BC17568D6C00333546 /* NICInfo.h */,
+				B51E02BD17568D6C00333546 /* NICInfo.m */,
+				B51E02BE17568D6C00333546 /* NICInfoSummary.h */,
+				B51E02BF17568D6C00333546 /* NICInfoSummary.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
 		B59E07E51728361600F0FA7E /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +179,10 @@
 				B59E07F017283D1500F0FA7E /* Engine+GPS.m */,
 				B5AF025B172842F000E49220 /* Engine+Battery.h */,
 				B5AF025C172842F000E49220 /* Engine+Battery.m */,
+				B595C66F175678E800BEDA9A /* Engine+AlertView.h */,
+				B595C670175678E800BEDA9A /* Engine+AlertView.m */,
+				B51E02B8175688C500333546 /* Engine+NetworkInformations.h */,
+				B51E02B9175688C500333546 /* Engine+NetworkInformations.m */,
 			);
 			name = Engine;
 			sourceTree = "<group>";
@@ -252,6 +280,10 @@
 				B59E07EE1728379600F0FA7E /* Engine.m in Sources */,
 				B59E07F117283D1500F0FA7E /* Engine+GPS.m in Sources */,
 				B5AF025D172842F100E49220 /* Engine+Battery.m in Sources */,
+				B595C671175678E800BEDA9A /* Engine+AlertView.m in Sources */,
+				B51E02BA175688C500333546 /* Engine+NetworkInformations.m in Sources */,
+				B51E02C017568D6C00333546 /* NICInfo.m in Sources */,
+				B51E02C117568D6C00333546 /* NICInfoSummary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,5 +12,6 @@
 
     @property(nonatomic, retain) NSString* path;
     @property (weak, nonatomic) IBOutlet UITextView *output;
+    @property (weak, nonatomic) IBOutlet UITextView *script;
 
 @end

@@ -10,6 +10,8 @@
 #import "Engine.h"
 #import "Engine+GPS.h"
 #import "Engine+Battery.h"
+#import "Engine+AlertView.h"
+#import "Engine+NetworkInformations.h"
 
 @interface ScriptViewController ()
 
@@ -26,12 +28,16 @@
     Engine* engine = [[Engine alloc] init];
     [engine initGPS];
     [engine initBattery];
+    [engine initAlertView];
+    [engine initNetworkInformation];
     
+    self.script.text =[NSString stringWithContentsOfFile:self.path encoding:NSUTF8StringEncoding error:nil];
     self.output.text = [engine executeScript:self.path];
 }
 
 - (void)viewDidUnload {
     [self setOutput:nil];
+    [self setScript:nil];
     [super viewDidUnload];
 }
 @end
